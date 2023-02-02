@@ -80,7 +80,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from server -> Bot's responce
 
-  const responce = await fetch('http://localhost:3000', {
+  const responce = await fetch('https://flashai.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type' : 'application/json'
